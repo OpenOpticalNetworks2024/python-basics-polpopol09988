@@ -9,7 +9,8 @@ import matplotlib as plt
 
 # ex1
 def exercise1():
-    pass
+    print("4")
+
 
 
 # ex2
