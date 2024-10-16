@@ -21,7 +21,7 @@ def exercise1():
 def exercise2():
     x = range(3, 8999)
     i = 8
-    for 
+    for hahaha
 
 
 
