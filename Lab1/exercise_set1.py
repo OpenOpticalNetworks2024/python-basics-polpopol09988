@@ -19,45 +19,91 @@ def exercise1():
 
 # ex2
 def exercise2():
-    x = range(3, 8999)
+    x = range(3, 9)
     i = 8
-    for hahaha
+    for k in range(i,len(x)):
+        print(x[k]+x[k-1])
 
 
 
 # ex3
 def exercise3():
-    pass
+    x = list(range(3, 9))
+    x.append(3)
+    if x[0] == x[len(x)-1]:
+        return(True)
+    else:
+        return(False)
+
 
 
 # ex4
 def exercise4():
-    pass
+    x = list(range(5,900,9))
+    for el in x:
+        if el%5==0:
+            print(el)
 
 
 # ex5
 def exercise5():
-    pass
+     x = "Emma is a good developer. Emma is also a writer"
+     k = x.split(" ")
+     cnt =0;
+     for parola in k:
+         if parola == "Emma":
+             cnt +=1
+     return cnt
+
 
 
 # ex6
 def exercise6():
-    pass
+    a = list(range(1,10))
+    b = list(range(11,20))
+    c = list()
+    for i in range(0,len(a)-1):
+        if a[i]%2 ==1:
+            c.append(a[i])
+    for i in range(0,len(b)-1):
+        if b[i]%2 ==0:
+            c.append(b[i])
+
 
 
 # ex7
 def exercise7():
-    pass
+    a = "casetta"
+    b = "albero"
+    c = a[0:int(len(a)/2)] + b + a[int(len(a)/2):len(a)]
+
 
 
 # ex8
 def exercise8():
-    pass
+    a = "casetta"
+    b = "albero"
+    c = a[0] + a[int(len(a)/2)] + a[len(a)-1] + b[0] + b[int(len(b)/2)] + b[len(b)-1]
+    return c
 
 
 # ex9
 def exercise9():
-    pass
+    a = "agdvdGCFHTD%/&("
+    d = 0
+    u =0
+    l=0
+    s=0
+    for letter in a:
+        if letter.islower():
+            l+=1
+        elif letter.isupper():
+            u+=1
+        elif letter.isdigit():
+            d+=1
+        else:
+            s+=1
+    print(d,u,l,s)
 
 
 # ex10
@@ -80,19 +126,19 @@ if __name__ == "__main__":
     print("EX1")
     #exercise1()
     print("EX2")
-    exercise2()
+    #exercise2()
     print("EX3")
-    exercise3()
+    #exercise3()
     print("EX4")
-    exercise4()
+    #exercise4()
     print("EX5")
-    exercise5()
+    #exercise5()
     print("EX6")
-    exercise6()
+    #exercise6()
     print("EX7")
-    exercise7()
+    #exercise7()
     print("EX8")
-    exercise8()
+    #exercise8()
     print("EX9")
     exercise9()
     print("EX10")
