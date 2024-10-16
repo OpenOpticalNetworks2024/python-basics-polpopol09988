@@ -9,13 +9,20 @@ import matplotlib as plt
 
 # ex1
 def exercise1():
-    print("41")
+    a = int(input("inserisci a:"))
+    b = int(input("inserisci b:"))
+    if(a*b > 1000):
+        return a+b
+    return a*b
 
 
 
 # ex2
 def exercise2():
-    pass
+    x = range(3, 8999)
+    i = 8
+    for 
+
 
 
 # ex3
@@ -71,7 +78,7 @@ def exercise12():
 if __name__ == "__main__":
     print("EXERCISE SET 1")
     print("EX1")
-    exercise1()
+    #exercise1()
     print("EX2")
     exercise2()
     print("EX3")
