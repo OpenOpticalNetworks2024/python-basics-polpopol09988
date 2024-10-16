@@ -9,7 +9,7 @@ import matplotlib as plt
 
 # ex1
 def exercise1():
-    print("4")
+    print("41")
 
 
 
