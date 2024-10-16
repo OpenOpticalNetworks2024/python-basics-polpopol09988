@@ -108,17 +108,35 @@ def exercise9():
 
 # ex10
 def exercise10():
-    pass
+    s = "habdUsajdb c hjsdusa"
+    s = s.lower()
+    return s.count("usa")
 
 
 # ex11
 def exercise11():
-    pass
-
+    s = "hdbe76njadc98"
+    sum = 0
+    avg = 0
+    cnt=0
+    for el in s:
+        if el.isdigit():
+            sum+=int(el)
+            cnt+=1
+    avg = sum/cnt
+    return(sum,avg)
 
 # ex12
 def exercise12():
-    pass
+    s = "agababa"
+    a = {}
+    for el in s:
+        if el not in a.keys():
+            a[el]=1
+        else:
+            a[el] +=1
+    print(a)
+
 
 
 if __name__ == "__main__":
@@ -140,9 +158,9 @@ if __name__ == "__main__":
     print("EX8")
     #exercise8()
     print("EX9")
-    exercise9()
+    #exercise9()
     print("EX10")
-    exercise10()
+    #exercise10()
     print("EX11")
     exercise11()
     print("EX12")
