@@ -49,7 +49,7 @@ def exercise4():
 def exercise5():
      x = "Emma is a good developer. Emma is also a writer"
      k = x.split(" ")
-     cnt =0;
+     cnt =0
      for parola in k:
          if parola == "Emma":
              cnt +=1
